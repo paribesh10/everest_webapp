@@ -1,0 +1,22 @@
+.content-css {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  div {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+  }
+}
