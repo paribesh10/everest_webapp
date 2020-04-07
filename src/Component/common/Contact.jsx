@@ -42,7 +42,7 @@ const Contact = () => {
             <input
               type='submit'
               name='submit'
-              value='Send e-mail'
+              value='Submit'
               class='submit'
               tabindex='5'
             />

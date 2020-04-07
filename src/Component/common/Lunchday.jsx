@@ -1,13 +1,13 @@
 import React from 'react';
+import '../style/lunch.scss';
 
-const Lunchday = ({ foodName, foodPrice, ingredients1, ingredients2 }) => {
+const Lunchday = ({ foodName, foodPrice, ingredients }) => {
   return (
     <div className='lunch-day'>
       <p>
         {foodName} €{foodPrice}
       </p>
-      <p>{ingredients1}</p>
-      <p>{ingredients1}</p>
+      <p className='ingredients'>{ingredients}</p>
     </div>
   );
 };
