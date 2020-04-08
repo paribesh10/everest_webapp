@@ -5,7 +5,7 @@ const Lunchday = ({ foodName, foodPrice, ingredients }) => {
   return (
     <div className='lunch-day'>
       <p>
-        {foodName} €{foodPrice}
+        {foodName} {foodPrice && `€${foodPrice}`}
       </p>
       <p className='ingredients'>{ingredients}</p>
     </div>

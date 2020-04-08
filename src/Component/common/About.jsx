@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/content.scss';
-const Content = ({ imgsrc, imgname, details, detailHeading }) => {
+import '../style/about_us.scss';
+const About = ({ imgsrc, imgname, details, detailHeading }) => {
   return (
     <div className='content-css'>
       <div>
@@ -13,4 +13,4 @@ const Content = ({ imgsrc, imgname, details, detailHeading }) => {
     </div>
   );
 };
-export default Content;
+export default About;

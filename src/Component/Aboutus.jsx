@@ -1,5 +1,5 @@
 import React from 'react';
-import Content from '../Component/common/Content';
+import About from './common/About';
 import owner from '../assets/images/owner.jpg';
 import chefs from '../assets/images/chefs.jpg';
 
@@ -10,7 +10,7 @@ const content = [
     position: 'Owners',
     imgsrc: owner,
     details:
-      'Hey! We are in Ramesh and Binod and we always warmly welcome you to our Everest Himal restaurant. We have a long experience in the restaurant industry and enjoy customer service. We always want to guarantee a pleasant restaurant experience. We warmly welcome you to the Everest Himalayas! You can always ask us whatever comes to mind.',
+      'Hey! We are Ramesh and Binod, and we always warmly welcome you to our Everest Himal restaurant. We have a long experience in the restaurant industry and enjoy customer service. We always want to guarantee a pleasant restaurant experience. We warmly welcome you to the Everest Himalayas! You can always ask us whatever comes to mind.',
   },
   {
     position: 'Chefs',
@@ -28,7 +28,7 @@ const Aboutus = () => {
       </div>
       <div className='about-content'>
         {content.map((item) => (
-          <Content
+          <About
             imgsrc={item.imgsrc}
             detailHeading={item.position}
             details={item.details}

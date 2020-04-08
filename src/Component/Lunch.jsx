@@ -4,6 +4,7 @@ import './style/lunch.scss'; //import css
 
 const lunch = {
   // create lunch ArrayofObject
+  Home: [{ name: 'this is home' }],
   Monday: [
     {
       name: '1. Chicken korma ',

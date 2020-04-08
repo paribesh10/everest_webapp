@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#reservation {
+  overflow: auto;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.content {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  color: #808080;
+}
+
+#reservation #form input {
+  float: center;
+  width: 70vw;
+  border: 0px;
+  color: black;
+  padding: 10px 10px 10px 30px;
+  font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+#reservation #form textarea {
+  float: center;
+  border: 0px;
+  width: 70vw;
+  height: 140px;
+  padding: 10px 10px 10px 30px;
+  font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+  color: #f1f1f1;
+  resize: none;
+}
+
+.button {
+  width: 30vw;
+}

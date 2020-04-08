@@ -1,0 +1,29 @@
+.menu-css,
+.second-menu-css {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  padding: 3vh;
+  background-color: gray;
+  margin-bottom: 2vh;
+
+  .img {
+    width: 35vw;
+    img {
+      max-width: 100%;
+    }
+  }
+  .menu-body {
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+  }
+}
+.second-menu-css {
+  background-color: silver;
+}
