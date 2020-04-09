@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import '../style/allMenu.scss';
 
-const data = [
-  { name: 'abc', price: 10, ingredients2: 'just a example' },
-  { name: 'abc', price: 10, ingredients2: 'just a example' },
-  { name: 'abc', price: 10, ingredients2: 'just a example' },
-];
-
 const Allmenu = ({
   onClick,
   imgsrc,

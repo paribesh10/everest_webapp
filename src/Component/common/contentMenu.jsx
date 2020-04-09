@@ -5,7 +5,7 @@ const Contentmenu = ({ foodName2, foodPrice2, ingredients2, goBack }) => {
     <div>
       <div>
         <h1 className='btn btn-info' onClick={() => goBack('Appitizer')}>
-          A
+          Appetizer
         </h1>
         <h1 className='btn btn-info' onClick={() => goBack('Main Course')}>
           MC
@@ -23,7 +23,7 @@ const Contentmenu = ({ foodName2, foodPrice2, ingredients2, goBack }) => {
         </p>
         <p className='ingredients2'>{ingredients2}</p>
         <button className='btn btn-warning ' onClick={goBack}>
-          Goback
+          Go Back
         </button>
       </div>
     </div>
