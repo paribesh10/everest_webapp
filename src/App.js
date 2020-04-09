@@ -7,18 +7,21 @@ import Contact from './Component/common/Contact';
 import Restaurant from './Component/Restaurant';
 import Menu from './Component/Menu';
 import Reservation from './Component/Reservation';
+import Header from './Component/common/Header';
+import Footer from './Component/common/Footer';
 
 const App = () => {
   return (
     <div className='App'>
-      <h1>This is Header</h1>
+      <Header />
       <Index />
       <Lunch />
       <Restaurant />
       <Aboutus />
       <Menu />
-      <Contact />
       <Reservation />
+      <Contact />
+      <Footer />
     </div>
   );
 };

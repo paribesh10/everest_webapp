@@ -1,5 +1,4 @@
 .index-css {
-  background-image: url('../../assets/images/try.jpg');
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -10,14 +9,49 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    video {
+      height: 100vh;
+      background-color: rgba(248, 247, 216, 0.7);
+    }
+  }
+
+  .content {
+    position: absolute;
+    top: 47vh;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contentback {
+    display: none;
+  }
+
   .btn {
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: inherit;
     color: #ffff;
     border-color: #ffff;
     font-weight: bold;
-    width: inherit;
+    width: 30vw;
     font-family: coutuier;
+    a {
+      color: #fff;
+    }
+    a:hover {
+      color: black;
+    }
   }
 
   .btn:hover {
@@ -31,5 +65,28 @@
     font-display: inherit;
     font-family: coutuier;
     margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .index-css {
+    .contentback {
+      height: 50vh;
+      width: 90vw;
+      background-color: rgba(43, 42, 42, 0.2);
+      position: absolute;
+      top: 25vh;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+    }
+    .content {
+      top: 30vh;
+      .btn {
+        width: 50vw;
+      }
+    }
   }
 }

@@ -218,7 +218,7 @@ const Lunch = () => {
   };
 
   return (
-    <div className='lunch'>
+    <div className='lunch' id='lunch'>
       <h1>Lunch offers</h1>
       {days.map((item) => (
         <button name={item} onClick={(e) => menuHandaler(e)}>
