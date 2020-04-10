@@ -28,7 +28,7 @@ const content = [
 ];
 
 const ala = {
-  Appitizer: [
+  Appetizer: [
     { name: 'Vegetable soup / Chicken soup (G, L) ', price: 5.5 },
     {
       name: 'Vegetable pakauda',

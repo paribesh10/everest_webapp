@@ -14,7 +14,7 @@ const Index = () => {
       <div className='content'>
         <h3>Welcome to Everest Himal</h3>
         <button type='button' herf='#lunch' className='btn btn-outline-light'>
-          <a class='navbar-brand' href='#lunch'>
+          <a class='navbar-brand' href='#reservation'>
             RESERVE A TABLE
           </a>
         </button>

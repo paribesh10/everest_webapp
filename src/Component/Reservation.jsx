@@ -5,7 +5,7 @@ const Reservation = () => {
     <section id='reservation'>
       <div className='content'>
         <div id='form'>
-          <h1>Contact Us</h1>
+          <h1>Reserve Now</h1>
           <form action='' id='contactForm' method='post'>
             <label for='name'>Name</label>
             <input type='text' name='name' className='name' tabindex='1' />

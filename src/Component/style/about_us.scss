@@ -1,19 +1,23 @@
 .about_us {
-  width: 100vw;
+  min-height: 90vh;
+  margin-left: 7em;
+  margin-right: 7em;
 }
 .about-heading {
   margin-left: auto;
   margin-right: auto;
   padding: 5vh 0;
+  align-content: center;
 }
 .about-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: space-around;
+  align-content: center;
+
   div {
     width: 40vw;
-    text-align: justify;
+    text-align: center;
   }
 }
 .content-css {
@@ -22,6 +26,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
+
   div {
     flex: 1;
     display: flex;
@@ -34,8 +39,11 @@
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
+  }
+  .content-body {
+    align-content: center;
   }
 }
 @media only screen and (max-width: 768px) {

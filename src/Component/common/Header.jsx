@@ -6,7 +6,7 @@ const Header = () => {
     <div className='header'>
       <div className='navbar-content'>
         <nav class='navbar navbar-expand-lg navbar-light background'>
-          <a class='navbar-brand' href='#'>
+          <a class='navbar-brand' href='#index'>
             Himal
           </a>
           <button
@@ -26,13 +26,19 @@ const Header = () => {
                 Home <span class='sr-only'>(current)</span>
               </a>
               <a class='nav-item nav-link' href='#lunch'>
-                Lucnch
+                Lunch
               </a>
-              <a class='nav-item nav-link' href='#'>
-                Pricing
+              <a class='nav-item nav-link' href='#aboutus'>
+                About Us
               </a>
-              <a class='nav-item nav-link ' href='#'>
-                Disabled
+              <a class='nav-item nav-link ' href='#menu'>
+                Menu
+              </a>
+              <a class='nav-item nav-link ' href='#reservation'>
+                Reserve
+              </a>
+              <a class='nav-item nav-link ' href='#contact'>
+                Contact Us
               </a>
             </div>
           </div>

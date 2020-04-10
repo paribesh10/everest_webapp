@@ -9,6 +9,7 @@ import Menu from './Component/Menu';
 import Reservation from './Component/Reservation';
 import Header from './Component/common/Header';
 import Footer from './Component/common/Footer';
+import Otherservices from './Component/Otherservices';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Aboutus />
       <Menu />
       <Reservation />
+      <Otherservices />
       <Contact />
       <Footer />
     </div>
