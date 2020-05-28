@@ -31,13 +31,13 @@ const Header = () => {
               <a class='nav-item nav-link' href='#aboutus'>
                 About Us
               </a>
-              <a class='nav-item nav-link ' href='#menu'>
+              <a class='nav-item nav-link' href='#menu'>
                 Menu
               </a>
-              <a class='nav-item nav-link ' href='#reservation'>
+              <a class='nav-item nav-link' href='#reservation'>
                 Reserve
               </a>
-              <a class='nav-item nav-link ' href='#contact'>
+              <a class='nav-item nav-link' href='#contact'>
                 Contact Us
               </a>
             </div>

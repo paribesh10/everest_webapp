@@ -18,18 +18,14 @@ const Reservation = () => {
             <label for='time'>Time</label>
             <input type='time' name='time' className='time' tabindex='2' />
             <label for='people'>Number of persons</label>
-            <select id='people'>
-              <option default value='NA'>
-                Please select the no of people
-              </option>
-              <option value='1'>1 Person</option>
-              <option value='2'>2 Persons</option>
-              <option value='3'>3 Persons</option>
-              <option value='4'>4 Persons</option>
-              <option value='5'>5 Persons</option>
-              <option value='5+'>5+ Persons</option>
+            <select className='form-control' id='people'>
+              <option>1 Person</option>
+              <option>2 Persons</option>
+              <option>3 Persons</option>
+              <option>4 Persons</option>
+              <option>5 Persons</option>
+              <option>5+ Persons</option>
             </select>
-
             <button class='btn btn-secondary button'>Reserve Now</button>
           </form>
         </div>

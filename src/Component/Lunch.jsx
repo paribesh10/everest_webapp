@@ -1,10 +1,11 @@
 import React, { useState } from 'react'; //REACT HOOKS
 import Lunchday from '../Component/common/Lunchday'; //IMPORT Lunchday component
 import './style/lunch.scss'; //import css
+import bklunch from '../assets/images/bklunch.png';
 
 const lunch = {
   // create lunch ArrayofObject
-  Home: [{ name: 'this is home' }],
+  Home: [{}],
   Monday: [
     {
       name: '1. Chicken korma ',
@@ -220,19 +221,33 @@ const Lunch = () => {
   return (
     <div className='lunch' id='lunch'>
       <h1>Lunch offers</h1>
+
       {days.map((item) => (
-        <button name={item} onClick={(e) => menuHandaler(e)}>
+        <button
+          name={item}
+          onClick={(e) => menuHandaler(e)}
+          className='btn-outline-info btn-lg lunch-button'
+        >
           {item}
         </button>
       ))}
       {menu &&
         menu.map((item) => (
           <Lunchday
+            className='lunch-body'
             foodName={item.name}
             foodPrice={item.price}
             ingredients={item.ingredients}
           />
         ))}
+      <div className='background'>
+        <img src={bklunch} alt='Image' className='img-fluid' />
+        <p>Lunch is served on weekdays Mon-Fri from 10:30 to 15:00.</p>
+        <p>
+          All servings include starter salad, soup (winter season), tandoori
+          fried naan bread, basmati rice, stripe and coffee or Nepali tea.
+        </p>
+      </div>
     </div>
   );
 };

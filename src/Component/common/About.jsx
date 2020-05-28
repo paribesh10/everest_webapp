@@ -8,7 +8,7 @@ const About = ({ imgsrc, imgname, details, detailHeading }) => {
       </div>
       <div className='content-body'>
         <h3>{detailHeading}</h3>
-        <p>{details}</p>
+        <p className='details'>{details}</p>
       </div>
     </div>
   );

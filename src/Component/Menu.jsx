@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import try2 from '../assets/images/try2.jpg';
+import appetizer from '../assets/images/appetizer.jpg';
+import momo from '../assets/images/momo.jpg';
+import dessert from '../assets/images/dessert.jpg';
+import kids from '../assets/images/kids.jpg';
 import './style/menu-css.scss';
 import Allmenu from './common/Allmenu';
 import Contentmenu from './common/Contentmenu';
@@ -7,22 +10,22 @@ import Contentmenu from './common/Contentmenu';
 const content = [
   {
     position: 'Appetizer',
-    imgsrc: try2,
+    imgsrc: appetizer,
     details: 'ahsfbljasfdbdshfgbawksjdvn',
   },
   {
     position: 'Main Course',
-    imgsrc: try2,
+    imgsrc: momo,
     details: 'askjhösdbvasdkvai<xbvj',
   },
   {
     position: 'Dessert',
-    imgsrc: try2,
+    imgsrc: dessert,
     details: 'askjhösdbvasdkvai<xbvj',
   },
   {
     position: 'For Kids',
-    imgsrc: try2,
+    imgsrc: kids,
     details: 'askjhösdbvasdkvai<xbvj',
   },
 ];

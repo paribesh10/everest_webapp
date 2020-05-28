@@ -5,8 +5,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-self: center;
-  padding: 1vh;
-  background-color: silver;
+  //padding: 1vh;
+  background-color: whitesmoke;
   margin-bottom: 2vh;
 
   .img {
@@ -24,6 +24,9 @@
     flex-direction: column;
   }
 }
+.detail-heading:hover {
+  color: #ff7a5c;
+}
 .second-menu-css {
-  background-color: silver;
+  background-color: whitesmoke;
 }

@@ -1,5 +1,28 @@
 .lunch {
   min-height: 90vh;
   padding: 5vh 0 5vh 0;
-  // background-color: #f8f9fa;
+  margin-top: 2em;
+  font-family: coutuier;
+  //background-color: #f8f9fa;
+}
+.lunch-button {
+  background-color: transparent;
+  font-size: inherit;
+  margin-top: 3em;
+  font-weight: bold;
+  width: 15vw;
+  font-family: coutuier;
+  color: black;
+  border-color: #ff7a5c;
+}
+.lunch-button:hover {
+  background-color: transparent;
+  border-color: #ff7a5c;
+  color: #ff7a5c;
+}
+.lunch-day {
+  margin-top: 4em;
+}
+.background {
+  background-image: image(lunch);
 }

@@ -20,8 +20,8 @@ const Allmenu = ({
             <img src={imgsrc} alt={imgname} />
           </div>
           <div className='menu-body'>
-            <h3>{detailHeading}</h3>
-            <p>{details}</p>
+            <h3 className='detail-heading'>{detailHeading}</h3>
+            <p className='details'>{details}</p>
           </div>
         </div>
       )}
@@ -31,8 +31,12 @@ const Allmenu = ({
           onClick={() => onClick(detailHeading1)}
         >
           <div className='menu-body'>
-            <h3 onClick={onClick}>{detailHeading1}</h3>
-            <p onClick={onClick}>{details1}</p>
+            <h3 className='detail-heading' onClick={onClick}>
+              {detailHeading1}
+            </h3>
+            <p className='details' onClick={onClick}>
+              {details1}
+            </p>
           </div>
           <div className='img'>
             <img src={imgsrc1} alt={imgname1} />

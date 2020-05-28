@@ -38,7 +38,28 @@
   color: #f1f1f1;
   resize: none;
 }
+.select {
+  float: center;
+  width: 70vw;
+  border: 0px;
+  color: black;
+  padding: 10px 10px 10px 30px;
+  font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
 
 .button {
   width: 30vw;
+  background-color: transparent;
+  font-size: inherit;
+  margin-top: 3em;
+  font-weight: bold;
+  font-family: coutuier;
+  color: black;
+  border-color: #ff7a5c;
+}
+.button:hover {
+  background-color: transparent;
+  border-color: #ff7a5c;
+  color: #ff7a5c;
 }

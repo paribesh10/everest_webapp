@@ -3,6 +3,14 @@
   margin-left: 7em;
   margin-right: 7em;
 }
+.container {
+  max-width: 960px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  background-color: white;
+}
 .about-heading {
   margin-left: auto;
   margin-right: auto;
@@ -44,7 +52,11 @@
   }
   .content-body {
     align-content: center;
+    padding: 5em;
   }
+}
+.detail {
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
   .about-content {

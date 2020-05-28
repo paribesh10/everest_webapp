@@ -17,7 +17,7 @@
   width: 70vw;
   display: flex;
   flex-wrap: wrap;
-  color: #808080;
+  color: black;
 }
 
 #contact #form input {
@@ -61,5 +61,23 @@
   height: 40vh;
 }
 .btn1 {
+  background-color: transparent;
+  font-size: inherit;
+  margin-top: 3em;
+  font-weight: bold;
   width: 30vw;
+  height: 5vh;
+  font-family: coutuier;
+  color: black;
+  border-color: #ff7a5c;
+  align-content: center;
+}
+.btn1:hover {
+  background-color: transparent;
+  border-color: #ff7a5c;
+  color: #ff7a5c;
+}
+.btn1:active {
+  background-color: #ff7a5c;
+  box-shadow: none;
 }

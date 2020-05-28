@@ -22,18 +22,20 @@ const content = [
 
 const Aboutus = () => {
   return (
-    <div className='about_us'>
-      <div className='about-heading'>
-        <h1>Our Team</h1>
-      </div>
-      <div className='about-content'>
-        {content.map((item) => (
-          <About
-            imgsrc={item.imgsrc}
-            detailHeading={item.position}
-            details={item.details}
-          />
-        ))}
+    <div className='container'>
+      <div className='about_us'>
+        <div className='about-heading'>
+          <h1>Our Team</h1>
+        </div>
+        <div className='about-content'>
+          {content.map((item) => (
+            <About
+              imgsrc={item.imgsrc}
+              detailHeading={item.position}
+              details={item.details}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -7,6 +7,11 @@ const Contact = () => {
       <div className='content'>
         <div id='form'>
           <h1>Contact Us</h1>
+          <p>
+            Do you have any questions? Please do not hesitate to contact us
+            directly. Our team will come back to you within a matter of hours to
+            help you.
+          </p>
           <form action='' id='contactForm' method='post'>
             <input
               type='text'
@@ -27,7 +32,7 @@ const Contact = () => {
               placeholder='Enter your message'
               tabindex='4'
             ></textarea>
-            <button class='btn1 btn-secondary'>Submit</button>
+            <button class='btn btn-secondary btn1'>Submit</button>
           </form>
         </div>
       </div>
