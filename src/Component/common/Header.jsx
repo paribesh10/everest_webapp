@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='navbar-content'>
-        <nav class='navbar navbar-expand-lg navbar-light background'>
-          <a class='navbar-brand' href='#index'>
-            Himal
+        <nav className='navbar navbar-expand-lg navbar-light background'>
+          <a className='navbar-brand' href='#index'>
+            Everest Himal
           </a>
           <button
-            class='navbar-toggler'
+            className='navbar-toggler'
             type='button'
             data-toggle='collapse'
             data-target='#navbarNavAltMarkup'
@@ -18,26 +18,26 @@ const Header = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span class='navbar-toggler-icon'></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
-          <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
-            <div class='navbar-nav'>
-              <a class='nav-item nav-link ' href='#index'>
-                Home <span class='sr-only'>(current)</span>
+          <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+            <div className='navbar-nav abc'>
+              <a className='nav-item nav-link ' href='#index'>
+                Home <span className='sr-only'>(current)</span>
               </a>
-              <a class='nav-item nav-link' href='#lunch'>
+              <a className='nav-item nav-link' href='#lunch'>
                 Lunch
               </a>
-              <a class='nav-item nav-link' href='#aboutus'>
+              <a className='nav-item nav-link' href='#aboutus'>
                 About Us
               </a>
-              <a class='nav-item nav-link' href='#menu'>
+              <a className='nav-item nav-link' href='#menu'>
                 Menu
               </a>
-              <a class='nav-item nav-link' href='#reservation'>
+              <a className='nav-item nav-link' href='#reservation'>
                 Reserve
               </a>
-              <a class='nav-item nav-link' href='#contact'>
+              <a className='nav-item nav-link' href='#contact'>
                 Contact Us
               </a>
             </div>

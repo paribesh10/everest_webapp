@@ -1,27 +1,41 @@
 .lunch {
-  min-height: 90vh;
+  //min-height: 90vh;
   padding: 5vh 0 5vh 0;
   margin-top: 2em;
   font-family: coutuier;
-  //background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 .lunch-button {
   background-color: transparent;
   font-size: inherit;
-  margin-top: 3em;
+  margin: 3em 5px 0 5px;
+
   font-weight: bold;
-  width: 15vw;
+  width: auto;
+  max-width: 20vw;
   font-family: coutuier;
   color: black;
-  border-color: #ff7a5c;
+  border-bottom: 2px solid grey;
+  border-radius: 0px;
+  z-index: 5;
 }
 .lunch-button:hover {
   background-color: transparent;
-  border-color: #ff7a5c;
+  border-bottom: 4px solid #ff7a5c;
   color: #ff7a5c;
 }
-.lunch-day {
-  margin-top: 4em;
+.lunch-button-active {
+  background-color: transparent;
+  border-bottom: 4px solid #ff7a5c;
+  color: #ff7a5c;
+}
+.lunch-days {
+  width: 100vw;
+  margin-top: 2em;
+  float: left;
+  text-align: left;
+  padding-left: 2vw;
+  margin-left: 25vw;
 }
 .background {
   background-image: image(lunch);

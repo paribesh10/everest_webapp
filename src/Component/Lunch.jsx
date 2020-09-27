@@ -1,11 +1,11 @@
-import React, { useState } from 'react'; //REACT HOOKS
+import React, { useState, useEffect } from 'react'; //REACT HOOKS
 import Lunchday from '../Component/common/Lunchday'; //IMPORT Lunchday component
 import './style/lunch.scss'; //import css
 import bklunch from '../assets/images/bklunch.png';
 
 const lunch = {
   // create lunch ArrayofObject
-  Home: [{}],
+
   Monday: [
     {
       name: '1. Chicken korma ',
@@ -209,24 +209,39 @@ const lunch = {
   ],
 };
 
-const days = ['Home', 'Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday'];
+const days = ['Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday'];
 
 const Lunch = () => {
   const [menu, setMenu] = useState();
+  const [active, setActive] = useState();
 
+  const activeHandaler = () => {
+    setActive();
+  };
   const menuHandaler = (e) => {
+    console.log(e.target.name);
+
     setMenu(lunch[e.target.name]);
   };
+
+  useEffect(() => {
+    setMenu(lunch['Monday']);
+  }, []);
 
   return (
     <div className='lunch' id='lunch'>
       <h1>Lunch offers</h1>
+      <p>Lunch is served on weekdays Mon-Fri from 10:30 to 15:00.</p>
+      <p>
+        All servings include starter salad, soup (winter season), tandoori fried
+        naan bread, basmati rice, stripe and coffee or Nepali tea.
+      </p>
 
       {days.map((item) => (
         <button
           name={item}
           onClick={(e) => menuHandaler(e)}
-          className='btn-outline-info btn-lg lunch-button'
+          className='btn btn-lg lunch-button'
         >
           {item}
         </button>
@@ -240,14 +255,6 @@ const Lunch = () => {
             ingredients={item.ingredients}
           />
         ))}
-      <div className='background'>
-        <img src={bklunch} alt='Image' className='img-fluid' />
-        <p>Lunch is served on weekdays Mon-Fri from 10:30 to 15:00.</p>
-        <p>
-          All servings include starter salad, soup (winter season), tandoori
-          fried naan bread, basmati rice, stripe and coffee or Nepali tea.
-        </p>
-      </div>
     </div>
   );
 };

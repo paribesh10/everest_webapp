@@ -1,15 +1,13 @@
 .about_us {
   min-height: 90vh;
-  margin-left: 7em;
-  margin-right: 7em;
+  // margin-left: 7em;
+  // margin-right: 7em;
 }
-.container {
-  max-width: 960px;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-
-  background-color: white;
+.container-us {
+  margin-bottom: 2em;
+  padding: auto;
+  // padding-right: 15px;
+  // padding-left: 15px;
 }
 .about-heading {
   margin-left: auto;
@@ -18,13 +16,20 @@
   align-content: center;
 }
 .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 
   div {
-    width: 40vw;
+    // width: 40vw;
     text-align: center;
   }
 }
@@ -41,19 +46,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
   }
-  img {
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 170px;
-    width: 170px;
-  }
+
   .content-body {
     align-content: center;
     padding: 5em;
   }
+}
+.img1 {
+  border-radius: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
 }
 .detail {
   text-align: center;

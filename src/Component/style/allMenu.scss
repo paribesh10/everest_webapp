@@ -1,16 +1,17 @@
 .menu-css,
 .second-menu-css {
-  width: 80vw;
+  width: 70vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-self: center;
   //padding: 1vh;
   background-color: whitesmoke;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 
   .img {
     width: 35vw;
+
     img {
       max-width: 100%;
     }

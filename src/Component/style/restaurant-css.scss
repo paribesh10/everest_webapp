@@ -1,18 +1,27 @@
 .restaurant-css {
-  //min-height: 90vh;
+  //min-height: 9vh;
+  //width: 100vw;
 
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.8;
-  font-weight: 300;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 25vw;
 
-  line-height: 1.5;
-  color: rgb(33, 37, 41);
-  text-align: center;
+    .heading {
+      width: 100vw;
+      text-align: left;
+    }
+  }
 }
 
 .para {
-  margin-left: 10px;
-  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 50vw;
+  // margin-left: auto;
+  // margin-right: auto;
   color: grey;
+  text-align: left;
 }

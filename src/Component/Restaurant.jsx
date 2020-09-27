@@ -6,18 +6,24 @@ const Restaurant = () => {
   return (
     <div>
       <div className='restaurant-css' id='aboutus'>
-        <h1>The Restaurant</h1>
-        <p className='para'>A taste trip to Nepali cuisine</p>
-        <p className='para'>
-          In the embrace of Old Rauma, you can jump on a taste trip to Nepali
-          cuisine and experience the secrets of Asian cuisine as well as the
-          best pieces. Warm welcome!
-        </p>
-        <p className='para'>Openning time</p>
-        <p className='para'>Mon-Fri 10.30-21.00 Sat 12-21 Sun 12-18</p>
-      </div>
-      <div>
-        <img src={restaurant} alt='Image' className='img-fluid' />
+        <div className='content'>
+          <div className='heading'>
+            <h1>The Restaurant</h1>
+          </div>
+          <div className='para'>
+            <p>A taste trip to Nepali cuisine</p>
+            <p>
+              In the embrace of Old Rauma, you can jump on a taste trip to
+              Nepali cuisine and experience the secrets of Asian cuisine as well
+              as the best pieces. Warm welcome!
+            </p>
+            <p>Openning time</p>
+            <p>Mon-Fri 10.30-21.00 Sat 12-21 Sun 12-18</p>
+          </div>
+        </div>
+        <div>
+          <img src={restaurant} alt='Image' className='img-fluid' />
+        </div>
       </div>
     </div>
   );

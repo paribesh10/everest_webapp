@@ -1,83 +1,138 @@
-* {
-  margin: 0;
-  padding: 0;
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// #contact {
+//   background-color: whitesmoke;
+//   min-height: 90vh;
+//   overflow: auto;
+//   width: 100vw;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   align-content: center;
+// }
+// .content {
+//   width: 70vw;
+//   display: flex;
+//   flex-wrap: wrap;
+//   color: black;
+// }
+
+// #contact #form input {
+//   float: center;
+//   width: 70vw;
+//   border: 0px;
+//   color: black;
+//   padding: 10px 10px 10px 30px;
+//   font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+//   margin-bottom: 10px;
+// }
+// #contact #form textarea {
+//   float: center;
+//   border: 0px;
+//   width: 70vw;
+//   height: 140px;
+//   padding: 10px 10px 10px 30px;
+//   font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+//   color: #f1f1f1;
+//   resize: none;
+// }
+// #contact #form input.name {
+//   background: white
+//     url(http://img7.uploadhouse.com/fileuploads/17737/177370145f09fe433945815665aa214f80dbc6af.png)
+//     no-repeat 10px 8px;
+// }
+// #contact #form input.email {
+//   background: white
+//     url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png)
+//     no-repeat 10px 9px;
+// }
+// #contact #form input.captcha {
+//   background: white
+//     url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png)
+//     no-repeat 10px 9px;
+// }
+// #contact #form textarea.message {
+//   background: white
+//     url(http://img3.uploadhouse.com/fileuploads/17737/1773701229ed8c2f465a8274623ca8976adaf196.png)
+//     no-repeat 10px 8px;
+//   height: 40vh;
+// }
+// .btn1 {
+//   background-color: transparent;
+//   font-size: inherit;
+//   margin-top: 3em;
+//   font-weight: bold;
+//   width: 30vw;
+//   height: 5vh;
+//   font-family: coutuier;
+//   color: black;
+//   border-color: #ff7a5c;
+//   align-content: center;
+// }
+// .btn1:hover {
+//   background-color: transparent;
+//   border-color: #ff7a5c;
+//   color: #ff7a5c;
+// }
+// .btn1:active {
+//   background-color: #ff7a5c;
+//   box-shadow: none;
+// }
+
+body {
+  background: #d9b280;
+  font-family: 'Roboto', sans-serif;
 }
 
-#contact {
-  background-color: whitesmoke;
-  min-height: 90vh;
-  overflow: auto;
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+.container {
+  background: #ffffff;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
 }
-.content {
-  width: 70vw;
-  display: flex;
-  flex-wrap: wrap;
-  color: black;
+.container .map {
+  width: 45%;
+  float: left;
 }
-
-#contact #form input {
-  float: center;
-  width: 70vw;
-  border: 0px;
-  color: black;
-  padding: 10px 10px 10px 30px;
-  font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
-  margin-bottom: 10px;
+.container .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
 }
-#contact #form textarea {
-  float: center;
-  border: 0px;
-  width: 70vw;
-  height: 140px;
-  padding: 10px 10px 10px 30px;
-  font: 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
-  color: #f1f1f1;
-  resize: none;
+.container .contact-form .title {
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
 }
-#contact #form input.name {
-  background: white
-    url(http://img7.uploadhouse.com/fileuploads/17737/177370145f09fe433945815665aa214f80dbc6af.png)
-    no-repeat 10px 8px;
+.container .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
 }
-#contact #form input.email {
-  background: white
-    url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png)
-    no-repeat 10px 9px;
+.container .contact-form input,
+.container .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #b7b7b7;
 }
-#contact #form input.captcha {
-  background: white
-    url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png)
-    no-repeat 10px 9px;
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+  color: #242424;
 }
-#contact #form textarea.message {
-  background: white
-    url(http://img3.uploadhouse.com/fileuploads/17737/1773701229ed8c2f465a8274623ca8976adaf196.png)
-    no-repeat 10px 8px;
-  height: 40vh;
-}
-.btn1 {
-  background-color: transparent;
-  font-size: inherit;
-  margin-top: 3em;
-  font-weight: bold;
-  width: 30vw;
-  height: 5vh;
-  font-family: coutuier;
-  color: black;
-  border-color: #ff7a5c;
-  align-content: center;
-}
-.btn1:hover {
-  background-color: transparent;
-  border-color: #ff7a5c;
-  color: #ff7a5c;
-}
-.btn1:active {
-  background-color: #ff7a5c;
-  box-shadow: none;
+.container .contact-form .btn-send {
+  background: #a383c9;
+  width: 180px;
+  height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
 }

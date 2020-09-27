@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <footer className='page-footer font-small special-color-dark pt-4'>
-        <div className='container'>
+        <div className='containers'>
           <ul className='list-unstyled list-inline text-center'>
             <li className='list-inline-item'>
               <a className='btn-floating btn-fb mx-1'>
@@ -28,7 +28,7 @@ function Footer() {
 
         <div className='footer-copyright text-center py-3'>
           © 2020 Copyright:
-          <a href='https://mdbootstrap.com/'> MDBootstrap.com</a>
+          <a> Everest Himal Oy</a>
         </div>
       </footer>
     </div>

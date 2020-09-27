@@ -4,7 +4,7 @@ const About = ({ imgsrc, imgname, details, detailHeading }) => {
   return (
     <div className='content-css'>
       <div>
-        <img src={imgsrc} alt={imgname} />
+        <img className='img1' src={imgsrc} alt={imgname} />
       </div>
       <div className='content-body'>
         <h3>{detailHeading}</h3>
