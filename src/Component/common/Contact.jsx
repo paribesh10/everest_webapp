@@ -54,7 +54,7 @@ const Contact = () => {
         <div className='contact-form'>
           <h1 className='title'>Contact Us</h1>
           <h2 className='subtitle'>We are here assist you.</h2>
-          <form name='contact' method='POST' data-netlify='true'>
+          <form method='POST' data-netlify='true'>
             <input type='text' name='name' placeholder='Your Name' />
             <input
               type='email'
