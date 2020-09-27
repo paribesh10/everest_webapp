@@ -68,7 +68,9 @@ const Contact = () => {
               rows='8'
               placeholder='Your Message'
             ></textarea>
-            <button className='btn-send'>Get a Call Back</button>
+            <button className='btn-send' type='submit'>
+              Get a Call Back
+            </button>
           </form>
         </div>
       </div>
