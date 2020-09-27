@@ -5,7 +5,7 @@ import dessert from '../assets/images/dessert.jpg';
 import kids from '../assets/images/kids.jpg';
 import './style/menu-css.scss';
 import Allmenu from './common/Allmenu';
-import Contentmenu from './common/Contentmenu';
+import Contentmenu from './Contentmenu';
 
 const content = [
   {
