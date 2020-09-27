@@ -371,9 +371,7 @@ const Menu = () => {
   const menuHandaler = (data) => {
     setMenu(ala[data]);
   };
-  const goBackhandaler = () => {
-    setMenu();
-  };
+
   return (
     <React.Fragment>
       <div className='menu-css' id='menu'>

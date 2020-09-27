@@ -22,7 +22,7 @@ const Restaurant = () => {
           </div>
         </div>
         <div>
-          <img src={restaurant} alt='Image' className='img-fluid' />
+          <img src={restaurant} alt='restaurant-img' className='img-fluid' />
         </div>
       </div>
     </div>

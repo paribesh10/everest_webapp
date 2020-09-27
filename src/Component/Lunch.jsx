@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'; //REACT HOOKS
 import Lunchday from '../Component/common/Lunchday'; //IMPORT Lunchday component
 import './style/lunch.scss'; //import css
-import bklunch from '../assets/images/bklunch.png';
 
 const lunch = {
   // create lunch ArrayofObject
@@ -213,11 +212,7 @@ const days = ['Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday'];
 
 const Lunch = () => {
   const [menu, setMenu] = useState();
-  const [active, setActive] = useState();
 
-  const activeHandaler = () => {
-    setActive();
-  };
   const menuHandaler = (e) => {
     console.log(e.target.name);
 
