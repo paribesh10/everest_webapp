@@ -405,6 +405,8 @@ const Menu = () => {
                     onClick={menuHandaler}
                   />
                 );
+              } else {
+                return <></>;
               }
             })}
           </div>
