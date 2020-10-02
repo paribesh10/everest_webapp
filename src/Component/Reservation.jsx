@@ -26,7 +26,7 @@ const Reservation = () => {
               <option>5 Persons</option>
               <option>5+ Persons</option>
             </select>
-            <button class='btn btn-secondary button'>Reserve Now</button>
+            <button class='btn btn-success button'>Reserve Now</button>
           </form>
         </div>
       </div>

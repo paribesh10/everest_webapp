@@ -22,11 +22,12 @@
   align-items: flex-start;
   margin-bottom: 30px;
   margin-top: 0px;
-  display: block;
+  display: flex;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  flex-direction: column;
 
   div {
     // width: 40vw;
@@ -39,14 +40,12 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-
   div {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    flex-direction: row;
   }
 
   .content-body {

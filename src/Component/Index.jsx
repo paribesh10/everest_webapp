@@ -12,12 +12,16 @@ const Index = () => {
       </div>
       <span className='contentback'></span>
       <div className='content'>
-        <h3>Welcome to Everest Himal</h3>
-        <button type='button' herf='#lunch' className='btn btn-outline-light'>
-          <a class='navbar-brand' href='#reservation'>
-            RESERVE A TABLE
-          </a>
-        </button>
+        <div>
+          <h3>Welcome to Everest Himal</h3>
+        </div>
+        <div style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+          <button type='button' herf='#lunch' className='btn btn-outline-light'>
+            <a class='navbar-brand btnname' href='#reservation'>
+              RESERVE A TABLE
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

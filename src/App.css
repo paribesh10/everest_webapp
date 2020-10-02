@@ -2,6 +2,8 @@
   text-align: center;
   background-color: #e6e6e6;
   transition: all 0.9s ease-in-out;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .App-logo {

@@ -82,15 +82,10 @@
 //   box-shadow: none;
 // }
 
-body {
-  background: #d9b280;
-  font-family: 'Roboto', sans-serif;
-}
-
 .container {
   background: #ffffff;
-  width: 900px;
-  height: 650px;
+  width: 70vw;
+  height: 90%;
   margin: 5% auto;
   position: relative;
 }
@@ -102,6 +97,9 @@ body {
   width: 53%;
   margin-left: 2%;
   float: left;
+}
+.a {
+  max-width: 32vw;
 }
 .container .contact-form .title {
   font-size: 2.5em;

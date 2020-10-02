@@ -9,6 +9,10 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
+  .btnname {
+    align-content: center;
+  }
+
   .video {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +36,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
   }
 
   .contentback {

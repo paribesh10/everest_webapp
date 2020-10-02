@@ -17,8 +17,11 @@ const Restaurant = () => {
               Nepali cuisine and experience the secrets of Asian cuisine as well
               as the best pieces. Warm welcome!
             </p>
-            <p>Openning time</p>
-            <p>Mon-Fri 10.30-21.00 Sat 12-21 Sun 12-18</p>
+            <p>Openning time: </p>
+            <p> Mon-Fri 10.30-21.00 Sat 12-21 Sun 12-18</p>
+
+            <p> Contact: 045 668 7373</p>
+            <p>Email: ravintola.everesthimal@gmail.com</p>
           </div>
         </div>
         <div>

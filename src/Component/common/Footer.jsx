@@ -8,19 +8,28 @@ function Footer() {
           <ul className='list-unstyled list-inline text-center'>
             <li className='list-inline-item'>
               <p className='btn-floating btn-fb mx-1'>
-                <i className='fab fa-facebook-f'> </i>
+                <a href='https://www.facebook.com/EverestHimal' target='_blank'>
+                  <i className='fab fa-facebook-f'> </i>
+                </a>
               </p>
             </li>
 
             <li className='list-inline-item'>
               <p className='btn-floating btn-gplus mx-1'>
-                <i className='fab fa-google-plus-g'> </i>
+                <a href='ravintola.everesthimal@gmail.com' target='_blank'>
+                  <i className='fab fa-google-plus-g'> </i>
+                </a>
               </p>
             </li>
 
             <li className='list-inline-item'>
               <p className='btn-floating btn-lg mx-1'>
-                <i className='fab fa-instagram'></i>
+                <a
+                  href='https://www.instagram.com/everesthimal/'
+                  target='_blank'
+                >
+                  <i className='fab fa-instagram'></i>
+                </a>
               </p>
             </li>
           </ul>

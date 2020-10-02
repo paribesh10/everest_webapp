@@ -52,51 +52,41 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className='contact-form'>
-          <h1 className='title'>Contact Us</h1>
-          <h2 className='subtitle'>We are here assist you.</h2>
-          <form
-            name='contact'
-            method='post'
-            data-netlify='true'
-            onSubmit='submit'
-          >
-            <p>
-              <label>
-                Your Name: <input type='text' name='name' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type='email' name='email' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name='message'></textarea>
-              </label>
-            </p>
-            <p>
-              <button type='submit'>Send</button>
-            </p>
-          </form>
-          {/* <form  method='POST' data-netlify='true'>
-            <input type='text' name='name' placeholder='Your Name' />
-            <input
-              type='email'
-              name='e-mail'
-              placeholder='Your E-mail Adress'
-            />
-            <input type='tel' name='phone' placeholder='Your Phone Number' />
-            <textarea
-              name='text'
-              id=''
-              rows='8'
-              placeholder='Your Message'
-            ></textarea>
-            <button className='btn-send' type='submit'>
-              Get a Call Back
-            </button>
-          </form> */}
+          <br></br>
+          <h2 className='subtitle'>We are here to assist you.</h2>
+
+          <span className='cntct'>
+            <form method='POST' data-netlify='true'>
+              <input
+                className='a'
+                type='text'
+                name='name'
+                placeholder='Your Name'
+              />
+              <input
+                className='a'
+                type='email'
+                name='e-mail'
+                placeholder='Your E-mail Adress'
+              />
+              <input
+                className='a'
+                type='tel'
+                name='phone'
+                placeholder='Your Phone Number'
+              />
+              <textarea
+                className='a'
+                name='text'
+                id=''
+                rows='8'
+                placeholder='Your Message'
+              ></textarea>
+              <button className='btn-send' type='submit'>
+                Get a Call Back
+              </button>
+            </form>
+          </span>
         </div>
       </div>
     </section>

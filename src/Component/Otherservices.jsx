@@ -12,7 +12,7 @@ const Otherservices = () => {
     <div className='container-other'>
       <h2 className='heading mb-3'>Other services</h2>
       <div className='row'>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaHamburger size='4em' />
             <h3>Quality Cusine</h3>
@@ -23,7 +23,7 @@ const Otherservices = () => {
             </p>
           </div>
         </div>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaBreadSlice size='4em' />
             <h3>Naan & bread</h3>
@@ -33,7 +33,7 @@ const Otherservices = () => {
             </p>
           </div>
         </div>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaSeedling size='4em' />
             <h3>Fresh food</h3>
@@ -43,7 +43,7 @@ const Otherservices = () => {
             </p>
           </div>
         </div>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaHotel size='4em' />
             <h3>Reserve Now</h3>
@@ -53,7 +53,7 @@ const Otherservices = () => {
             </p>
           </div>
         </div>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaCarrot size='4em' />
             <h3>Fresh Vegies Salad</h3>
@@ -64,7 +64,7 @@ const Otherservices = () => {
             </p>
           </div>
         </div>
-        <div className='media feature-icon d-block text-center'>
+        <div className='media feature-icon d-block text-center new'>
           <div className='media-body'>
             <FaDrumstickBite size='4em' />
             <h3>Chicken Tandoor</h3>
